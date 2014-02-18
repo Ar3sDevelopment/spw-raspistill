@@ -12,3 +12,7 @@ exports.data = function (cb) {
 exports.manage_post = function (post, cb) {
 	cb(0, null);
 };
+
+exports.updatetime = 5 * 60 * 1000;
+exports.title = 'Camera Image';
+exports.columns = 6;
